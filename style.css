@@ -1,0 +1,93 @@
+@import "turretcss.min.css";
+
+:root {
+  --root-size: 18px;
+  --primary: #00ab6c;
+  --white: #f7f4f3;
+  --light: #c6c5b9;
+  --grey: #564d4a;
+  --dark: #323031;
+  --input-placeholder-color: var(--grey);
+  --input-placeholder-opacity: 1;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  text-align: center;
+}
+
+a {
+  color: var(--primary);
+}
+a:hover,
+a:focus {
+  color: var(--light);
+}
+
+header,
+main,
+footer {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  margin-bottom: 15px;
+}
+
+input,
+input:hover,
+input:focus {
+  color: var(--dark);
+}
+button:focus,
+input:focus {
+  outline: 0.125rem solid var(--primary) !important;
+}
+
+hr {
+  background-color: var(--primary);
+}
+
+/* header */
+
+header {
+  padding: 90px 0px 30px;
+}
+
+.logo svg {
+  fill: var(--primary);
+  display: block;
+  margin: 0 auto;
+  max-width: 75px;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* bio */
+.bio {
+  margin: 0 auto 30px;
+  padding-top: 10px;
+  /* background-color: var(--grey); */
+}
+.bio p {
+  font-size: 14px;
+}
+.bio strong {
+  font-weight: bold;
+}
+.bio img {
+  max-width: 60px;
+}
+
+/* util */
+
+.shade {
+}
+.fade {
+}

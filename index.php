@@ -10,6 +10,12 @@ $mode = 'home';
 $error = '';
 $query = $_GET;
 
+$meta = array(
+  'title' => 'Medium.tools',
+  'description' => 'Create drafts on Medium.com from your canonical content source (unofficial).',
+  'image' => '',
+);
+
 // mode
 if (!empty($query['code']) && !empty($query['state'])) {
   if ($query['state'] === $state) {
